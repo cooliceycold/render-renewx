@@ -6,4 +6,8 @@ ADD /appdata/DataBase/ /renewx/appdata/DataBase/
 
 WORKDIR /renewx
 
+ADD /Deploy/Config.xml /renewx/Deploy/Config.xml
+
+WORKDIR /renewx
+
 EXPOSE 1066
